@@ -4,4 +4,5 @@ def my_collect(collection)
     yield 
     i+=1
   end 
+  return collection
 end 
